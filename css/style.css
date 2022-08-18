@@ -1,0 +1,164 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #EFE6E4;
+    color: #533738;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.skil{
+background-image:url(../images/2.jpg);
+}
+.skil-title{
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+}
+.skil-p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;  
+}
+.skil-button{
+    background: #CC8B86;
+}
+.button{
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color:#533738;
+}
+
+.about-title{
+    font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+}
+.about-text{
+    font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+}
+.experience{
+    color: #FFFFFF;
+    background: #8D7370;
+}
+.experience-p1{
+    font-weight: 400;
+font-size: 50px;
+line-height: 62px;
+}
+.experience-p2{
+    font-weight: 500;
+font-size: 30px;
+line-height: 37px;
+}
+.works-title{
+    font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+color: #533738;
+}
+.button-works{
+     font-weight: 500;
+font-size: 30px;
+line-height: 37px;
+color: #533738;
+}
+.team{
+    background: #E2C4BA;
+}
+.team-title{
+    font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+}
+.team-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.advantage{
+    background: #E2C4BA;
+}
+.advantage-title{
+    font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+}
+.advantage-text1{
+    font-weight: 500;
+font-size: 30px;
+line-height: 30px;
+color: #FFFFFF;
+}
+.advantage-text2{
+    font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+}
+.reviews-title{
+    font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+}
+.reviews-p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+}
+.reviews-cite{
+    font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+}
+.reviews-button{
+    background: #CC8B86;
+}
+.contact{
+    background: #8D7370;
+}
+.contact-title{
+    font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+color: #FFFFFF;
+}
+.contact-p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+opacity: 0.6;
+}
+.form-input{
+    background: #8D7370;
+    font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #F6EDE9;
+}
+.form-button{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #533738;  
+    background: #CC8B86;
+}
+.footer-p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+}
