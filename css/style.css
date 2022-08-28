@@ -2,6 +2,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     background: #EFE6E4;
     color: #533738;
+    margin:0 auto;
+    border: 1px solid blue;
+    width: 1400px;
 }
 @font-face {
     font-family: 'Montserrat';
@@ -18,67 +21,195 @@ body{
     font-style: normal;
     font-display: swap;
 }
+.navigation{
+   
+    display: grid;
+    grid-template-columns: 65px 1fr ;
+    align-items: center;
+    column-gap: 90px;
+    min-height: 25px;
+    margin-left: 98px;
+    margin-right: 100px;
+    margin-top: 36px;
+    width: 1202px;
+   
+
+
+
+}
+.navigation-logo{
+
+}
+.navigation-list{
+    display:flex;
+    justify-content: space-between;    
+}
+.navigation-item a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #533738;
+    margin: 0;
+}
 .skil{
 background-image:url(../images/2.jpg);
+width: 1400px;
+height: 654px;
+
+margin: 0;
 }
 .skil-title{
 font-style: normal;
 font-weight: 400;
 font-size: 50px;
+width: 534px;
+height: 186px;
+margin-top:91px;
+margin-left:184px;
+
+margin-bottom: 24px;
 }
 .skil-p{
     font-weight: 400;
     font-size: 18px;
-    line-height: 30px;  
+    line-height: 30px;
+    width: 493px;
+    height: 90px;  
+    margin-left:184px;
+    
+    margin-bottom: 21px;
 }
 .skil-button{
     background: #CC8B86;
+    display: block;
+    width: 155px;
+    padding: 25px 60px;
+    margin-left: 182px;
+    color:#533738;
+    
 }
 .button{
     font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-color:#533738;
+    font-size: 20px;
+    line-height: 24px; 
 }
-
+.about{
+    width: 1400px;
+    
+    margin: 0;
+      } 
+.about-img{
+    
+    margin-left: 114px;
+    margin-right: 63px;
+}
+.about-text.text1{
+    margin-bottom: 60px;
+}
+.about-box{
+    display: flex;
+    
+    } 
+    
 .about-title{
     font-weight: 400;
-font-size: 40px;
-line-height: 50px;
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 50px;
+    text-align: center;
+    
+    margin-bottom: 40px;
 }
 .about-text{
     font-weight: 400;
-font-size: 18px;
-line-height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    width: 528px;
+    margin:0;
+   
 }
 .experience{
     color: #FFFFFF;
     background: #8D7370;
+    margin: 0;
+    width: 1400px;
+    height: 273px; 
+    border: 1PX solid blue;  
+}
+.experience-list{
+    display:flex;
+    align-items: center;
+    margin: 0;
+   
+}
+.experience-item{
+    border: 1px solid blue;  
+    margin: 0;
+    width: 190px;
+}
+.experience-item1{
+    margin-right:269px ;
+    margin-left: 114px;
+}
+.experience-item2{
+    margin-right:175px ;
+    
 }
 .experience-p1{
     font-weight: 400;
 font-size: 50px;
 line-height: 62px;
+text-align: center;
+border: 1px solid blue; 
+margin-bottom: 5px;
 }
 .experience-p2{
-    font-weight: 500;
+font-weight: 500;
 font-size: 30px;
 line-height: 37px;
+text-align: center;
+border: 1px solid blue; 
+margin: 0;
+}
+.works{
+    
+    margin:0px;
+    border: 1px solid blue;
+}
+.works-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid red;
+}
+.works-item{
+    margin-right: 20px;
 }
 .works-title{
     font-weight: 400;
 font-size: 40px;
 line-height: 50px;
 color: #533738;
+border: 1px solid white;
+margin-top: 47px;
+margin-bottom: 40px;
+margin-left: 100px;
 }
 .button-works{
-     font-weight: 500;
-font-size: 30px;
-line-height: 37px;
-color: #533738;
+    display:block;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #533738;
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 65px;
 }
 .team{
     background: #E2C4BA;
+    margin: 0;
+    border: 1px solid blue;
 }
 .team-title{
     font-weight: 400;
@@ -162,3 +293,8 @@ color: #F6EDE9;
 font-size: 18px;
 line-height: 30px;
 }
+.visually-hidden{
+    visibility: hidden;
+}
+
+
